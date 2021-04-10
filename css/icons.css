@@ -1,0 +1,147 @@
+@media (prefers-color-scheme: light) {
+  .icon.keybase {
+    background-image: url('../assets/icons/lm-keybase.svg');
+  }
+
+  .icon.cr {
+    background-image: url('../assets/icons/lm-cr.svg');
+  }
+
+  .icon.calyx {
+    background-image: url('../assets/icons/lm-calyx.svg');
+  }
+
+  .icon.https {
+    background-image: url('../assets/icons/lm-https.svg');
+  }
+
+  .icon.eff {
+    background-image: url('../assets/icons/lm-eff.svg');
+  }
+
+  .icon.pt {
+    background-image: url('../assets/icons/lm-pt.svg');
+  }
+
+  .icon.fpf {
+    background-image: url('../assets/icons/lm-fpf.svg');
+  }
+
+  .icon.logo {
+    background-image: url('../assets/placeholder/circle.svg');
+  }
+
+  .icon.signal {
+    background-image: url('../assets/icons/lm-signal.svg');
+  }
+
+  .icon.ff {
+    background-image: url('../assets/icons/lm-ff.svg');
+  }
+
+  .icon.ublock {
+    background-image: url('../assets/icons/lm-ublock.svg');
+  }
+
+  .icon.bit {
+    background-image: url('../assets/icons/lm-bit.png');
+  }
+
+  .icon.stdnotes {
+    background-image: url('../assets/icons/lm-sn.svg');
+  }
+
+  .icon.proton {
+    background-image: url('../assets/icons/lm-proton.svg');
+  }
+
+  .icon.authy {
+    background-image: url('../assets/icons/lm-authy.svg');
+  }
+
+  .icon.tor {
+    background-image: url('../assets/icons/lm-tor.svg');
+  }
+
+  .icon.vpn {
+    background-image: url('../assets/icons/lm-vpn.svg');
+  }
+
+  .icon.times {
+    background-image: url('../assets/icons/lm-times.svg');
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .icon.keybase {
+    background-image: url('../assets/icons/lm-keybase.svg');
+  }
+
+  .icon.cr {
+    background-image: url('../assets/icons/lm-cr.svg');
+  }
+
+  .icon.times {
+    background-image: url('../assets/icons/dm-times.svg');
+  }
+
+  .icon.calyx {
+    background-image: url('../assets/icons/lm-calyx.svg');
+  }
+
+  .icon.logo {
+    background-image: url('../assets/placeholder/circle.svg');
+  }
+
+  .icon.fpf {
+    background-image: url('../assets/icons/dm-fpf.svg');
+  }
+
+  .icon.pt {
+    background-image: url('../assets/icons/lm-pt.svg');
+  }
+
+  .icon.https {
+    background-image: url('../assets/icons/lm-https.svg');
+  }
+
+  .icon.eff {
+    background-image: url('../assets/icons/dm-eff.svg');
+  }
+
+  .icon.signal {
+    background-image: url('../assets/icons/lm-signal.svg');
+  }
+
+  .icon.ff {
+    background-image: url('../assets/icons/lm-ff.svg');
+  }
+
+  .icon.ublock {
+    background-image: url('../assets/icons/lm-ublock.svg');
+  }
+
+  .icon.bit {
+    background-image: url('../assets/icons/lm-bit.png');
+  }
+
+  .icon.stdnotes {
+    background-image: url('../assets/icons/lm-sn.svg');
+  }
+
+  .icon.proton {
+    background-image: url('../assets/icons/dm-proton.svg');
+  }
+
+  .icon.authy {
+    background-image: url('../assets/icons/lm-authy.svg');
+  }
+
+  .icon.tor {
+    background-image: url('../assets/icons/lm-tor.svg');
+  }
+
+  .icon.vpn {
+    background-image: url('../assets/icons/lm-vpn.svg');
+  }
+}

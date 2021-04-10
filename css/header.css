@@ -1,0 +1,27 @@
+@media only screen and (max-width: 960px) {
+
+  .preview header nav ul {
+    display: none;
+  }
+
+  header nav {
+    position: initial;
+  }
+
+  header h1 {
+    float: none;
+    margin-top: 0;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  nav.staged ul {
+    display: inherit;
+  }
+
+  .navButton, .close, .menu {
+    display: inherit !important;
+  }
+}
