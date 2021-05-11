@@ -28,10 +28,15 @@
 		<!-- BODY -->
 
 		<?php include "templates/instructions.php" ?>
+
 		<?php include "templates/home-template.php" ?>
+
 		<?php include "templates/secondary-template.php" ?>
+
 		<?php include "templates/article-template.php" ?>
+
 		<?php include "templates/table-template.php" ?>
+
 		<?php include "templates/chat-template.php" ?>
 
 	</section> <!-- END CANVAS -->
