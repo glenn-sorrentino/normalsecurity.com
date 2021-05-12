@@ -31,6 +31,7 @@
   p.typeset {
     font-family: Georgia, Times, Times New Roman, serif !important;
     font-style: italic;
+    font-weight: normal;
   }
 
   h1, h2, h3, h4, h5, h6 {
