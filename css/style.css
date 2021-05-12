@@ -2,3 +2,9 @@
 @import "icons.css";
 @import "header.css";
 @import "notification.css";
+
+@-moz-document url-prefix() {
+  :root {
+    font-family: Helvetica, Arial, sans-sans-serif !important;
+  }
+}
