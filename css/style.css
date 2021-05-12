@@ -6,7 +6,6 @@
 @-moz-document url-prefix() {
   :root {
     font-family: Helvetica, Arial, sans-sans-serif !important;
-    font-weight: bold;
   }
 
   .headline p {
