@@ -9,12 +9,12 @@ article h3 {
 }
 
 article h4 {
-  font-family: var(--font-serif-bold);
+  font-family: var(--font-serif);
   margin-bottom: var(--spacing-large) !important;
 }
 
 .authorName {
-  font-family: var(--font-sans-bold);
+  font-weight: bold;
 }
 
 article {
@@ -32,7 +32,7 @@ article .featureImage:nth-child(even) {
 }
 
 article a.location {
-  font-family: var(--font-sans-bold);
+  font-weight: bold;
 }
 
 article p {

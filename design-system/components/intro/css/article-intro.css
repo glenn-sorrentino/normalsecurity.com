@@ -28,7 +28,8 @@
 
 .articleIntro h1 {
   padding: var(--spacing-large) var(--spacing-xlarge);
-  font-family: var(--font-serif-bold);
+  font-weight: bold;
+  font-family: var(--font-serif);
   margin-bottom: var(--spacing-small);
   border-radius: 0 var(--radius-base) var(--radius-base) 0;
   -webkit-background-clip: initial !important;
@@ -42,7 +43,7 @@
 }
 
 .authorName {
-  font-family: var(--font-sans-bold);
+  font-weight: bold;
 }
 
 .articleIntro p:last-of-type {

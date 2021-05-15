@@ -29,7 +29,7 @@
   letter-spacing: initial;
   width: 100% !important;
   max-width: 100% !important;
-  font-family: var(--font-sans-bold);
+  font-weight: bold;
 }
 
 .headline p:last-of-type {

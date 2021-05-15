@@ -71,7 +71,7 @@
 }
 
 .tabs a.selected {
-  font-family: var(--font-sans-bold);
+  font-weight: bold;
 }
 
 .tabContainerScrolled {
