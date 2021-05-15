@@ -42,11 +42,9 @@ p.typeset {
   width: max-content !important;
   padding: var(--spacing-small) var(--spacing-base);
   margin: var(--spacing-small) auto !important;
-  font-family: var(--font-serif-italic) !important;
+  font-family: var(--font-serif) !important;
   -webkit-display: initial;
   text-transform: lowercase;
-  position: relative;
-  top: var(--spacing-xsmall);
 }
 
 .bookCover p {
