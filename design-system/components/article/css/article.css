@@ -1,15 +1,18 @@
 article h2 {
-  font-family: var(--font-serif-bold)!important;
+  font-family: var(--font-serif)!important;
+  font-weight: bold !important;
   margin-bottom: var(--spacing-large) !important;
 }
 
 article h3 {
-  font-family: var(--font-serif-bold)!important;
+  font-family: var(--font-serif)!important;
+  font-weight: bold !important;
   margin-bottom: var(--spacing-large) !important;
 }
 
 article h4 {
   font-family: var(--font-serif);
+  font-weight: bold !important;
   margin-bottom: var(--spacing-large) !important;
 }
 
@@ -25,10 +28,6 @@ article .featureImage {
   float: right;
   margin: 0 0 var(--spacing-medium) var(--spacing-medium);
   width: 50% !important;
-}
-
-article .featureImage:nth-child(even) {
-
 }
 
 article a.location {

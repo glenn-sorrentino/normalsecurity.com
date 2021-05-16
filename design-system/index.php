@@ -10,8 +10,8 @@
 	<title>🧰 Simple Design System</title>
 	<link rel="stylesheet" href="css/style.css">
 
-	<script src="js/jquery-3.6.0.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="js/jquery-min.js"></script>
+	<script src="components/header/js/header.js"></script>
 	<script src="builder/js/builder.js"></script>
 	<script src="components/chat/js/chat.js"></script>
 	<script src="components/footer/js/copyright.js"></script>
