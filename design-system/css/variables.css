@@ -31,6 +31,7 @@
 
   --theme-glow: #8840F5;
   --theme-glow-light: #c39ffa;
+  --border-glow: 1px solid var(--theme-glow);
 
 /* COLORS */
 

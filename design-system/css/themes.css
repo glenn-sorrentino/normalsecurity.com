@@ -32,7 +32,7 @@
   }
 
   .glow .primaryBtn {
-    border: none;
+    border: var(--border-glow);
   }
 }
 
