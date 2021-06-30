@@ -256,9 +256,6 @@ p.typeset {
     margin-bottom: calc(var(--spacing-large) * .75) !important;
   }
 
-  p.typeset {
-    margin: var(--spacing-xsmall) auto var(--spacing-small) auto !important;
-  }
 }
 
 @media only screen and (min-height: 768px) {
@@ -334,9 +331,6 @@ p.typeset {
     margin-bottom: calc(var(--spacing-large) * .55) !important;
   }
 
-  p.typeset {
-    margin: var(--spacing-xxsmall) auto var(--spacing-small) auto !important;
-  }
 }
 
 @media only screen and (max-width: 375px) {
