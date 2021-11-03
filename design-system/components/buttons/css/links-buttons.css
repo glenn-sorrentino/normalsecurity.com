@@ -60,6 +60,7 @@
   font-size: var(--font-size-small);
   font-weight: bold;
   display: inline-block;
+  line-height: initial;
 }
 
 .btn:hover {
