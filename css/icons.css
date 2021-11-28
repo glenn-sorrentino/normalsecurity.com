@@ -142,7 +142,7 @@
   }
 
   .icon.vpn {
-    background-image: url('../assets/icons/lm-vpn.svg');
+    background-image: url('../assets/icons/dm-vpn.svg');
   }
 }
 
@@ -293,7 +293,7 @@
     }
 
     .icon.vpn {
-      background-image: url('../assets/icons/lm-vpn.png');
+      background-image: url('../assets/icons/dm-vpn.png');
     }
   }
 }
