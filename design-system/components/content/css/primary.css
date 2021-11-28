@@ -9,13 +9,13 @@
 }
 
 .blockContent .description {
-  margin: 0 auto var(--spacing-large) auto;
+  margin: 0 auto var(--spacing-large) auto !important;
   padding-right: 0;
   width: 100%;
 }
 
 .blockContent .description p {
-  margin: 0 auto var(--spacing-base) auto;
+  margin: 0 auto var(--spacing-base) auto !important;
   width: 100%;
 }
 
