@@ -16,7 +16,9 @@
   }
 }
 
-html {}
+html {
+  scroll-padding-top: calc(var(--spacing-large) + 88px);
+}
 
 * {
   -moz-box-sizing: border-box;
