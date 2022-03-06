@@ -1,23 +1,3 @@
-@keyframes toast {
-  0% {
-		transform: translateY(0);
-    opacity: 0;
-    z-index: 4;
-	}
-	3%, 50% {
-		transform: translateY(-1rem);
-		opacity: 1;
-	}
-	53%, 100% {
-		transform: translateY(0);
-		opacity: 0;
-    z-index: 5;
-	}
-  100% {
-    z-index: -3 !important;
-  }
-}
-
 @keyframes floating {
   0% {
     transform: translate(-50%, -50%);
@@ -28,4 +8,79 @@
   100% {
     transform: translate(-50%, -50%);
   }
+}
+
+@keyframes leftToRight {
+	from { transform: translateX(-15rem); }
+	to { transform: translateX(100%); }
+}
+
+@keyframes rightToLeft {
+  from { transform: translateX(100%); }
+	to { transform: translateX(-5rem); }
+}
+
+@keyframes toast {
+  0% {
+		transform: translateY(0);
+	}
+	3%, 50% {
+		transform: translateY(-1rem);
+		opacity: 1;
+	}
+	53%, 100% {
+		transform: translateY(0);
+		opacity: 0;
+	}
+}
+
+.animation h2 {
+  z-index: 2;
+}
+
+.intro .bg-sat {
+  background-image: url("../../assets/illustrations/sat2.png");
+  background-position-x: 0;
+  background-position-y: top !important;
+  background-repeat: no-repeat;
+  animation: rightToLeft 30s linear infinite;
+  position: absolute;
+  top: calc(var(--spacing-xxlarge) * 1.75);
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-size: 4rem;
+  opacity: .5;
+  z-index: 0;
+  filter: blur(.25rem);
+  transform: translateZ(0);
+	margin-top: 0 !important;
+}
+
+.intro .bg-sat:last-of-type {
+  background-image: url("../../assets/illustrations/sat1.png");
+  background-position-x: 0;
+  background-position-y: bottom !important;
+  background-repeat: no-repeat;
+  animation: leftToRight 20s linear infinite;
+  position: absolute;
+  bottom: var(--spacing-medium);
+	top: 0;
+  right: 0;
+  left: 0;
+  background-size: 12rem;
+  opacity: 1;
+  z-index: 0;
+	filter: blur(0);
+  transform: translateZ(0);
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 480px) {
+
+	.intro .bg-sat:last-of-type {
+	  background-size: 8rem;
+	}
 }

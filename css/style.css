@@ -1,41 +1,38 @@
-@import "sat-animation.css";
-@import "icons.css";
-@import "header.css";
-@import "notification.css";
+/* The Simple Design System is made with ❤️ by Glenn Sorrentino - https://glennsorrentino.com */
+/* Please consider contributing! */
 
-@-moz-document url-prefix() {
-  :root {
-    font-family: Helvetica, Arial, sans-serif !important;
-  }
+/* Add your custom styles in this file... */
 
-  .headline p {
-    font-family: Helvetica, Arial, sans-serif !important;
-    font-weight: bold;
-  }
+@import url("icons.css");
 
-  .parent {
-    font-family: Helvetica, Arial, sans-serif !important;
-    font-weight: bold;
-  }
+@media (prefers-color-scheme: light) {
 
-  p.badge {
-    font-family: Helvetica, Arial, sans-serif !important;
-    font-weight: bold;
-  }
+}
 
-  .btn {
-    font-family: Helvetica, Arial, sans-serif !important;
-    font-weight: bold;
-  }
+@media (prefers-color-scheme: dark) {
 
-  p.typeset {
-    font-family: Georgia, Times, Times New Roman, serif !important;
-    font-style: italic;
-    font-weight: normal;
-  }
+}
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: Helvetica, Arial, sans-serif !important;
-    font-weight: bold;
-  }
+@media only screen and (max-width: 1280px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 960px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 640px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
 }
