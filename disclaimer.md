@@ -1,5 +1,5 @@
 
-# Generic Disclaimer for Normal Security
+# Disclaimer for Normal Security
 
 Last updated March 6, 2022
 
