@@ -99,4 +99,8 @@ section {
     margin: 0 0 var(--spacing-xxlarge) 0;
   }
 
+  .zoom {
+    transform: scale(1.75);
+  }
+
 }

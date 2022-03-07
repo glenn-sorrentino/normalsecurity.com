@@ -39,6 +39,10 @@
     background-image: url('../assets/icons/lm-tor.png');
   }
 
+  .ublock {
+    background-image: url('../assets/icons/lm-ublock.png');
+  }
+
   .skiff {
     background-image: url('../assets/icons/lm-skiff.png');
   }
@@ -71,6 +75,10 @@
 @media (prefers-color-scheme: dark) {
   .tor {
     background-image: url('../assets/icons/dm-tor.png');
+  }
+
+  .ublock {
+    background-image: url('../assets/icons/dm-ublock.png');
   }
 
   .skiff {
