@@ -26,6 +26,10 @@
   a {
     color: var(--color-light);
   }
+
+  .brighten {
+    filter: hue-rotate(280deg) brightness(10);
+  }
 }
 
 html {
@@ -78,6 +82,12 @@ section {
   display: flex;
   padding: 0 var(--spacing-large);
   flex-direction: column;
+}
+
+.zoom {
+  transform: scale(2);
+  display: inline-flex;
+  margin: 0 var(--spacing-small);
 }
 
 @media only screen and (max-width: 768px) {
