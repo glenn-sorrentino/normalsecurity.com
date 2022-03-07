@@ -114,7 +114,7 @@ h3 + .description {
 .groupRow {
   display: flex;
   flex-direction: row;
-  margin: var(--spacing-large) 0;
+  margin: var(--spacing-medium) 0;
 }
 
 .group .description h3,
