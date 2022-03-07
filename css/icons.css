@@ -38,10 +38,6 @@
   background-image: url('../assets/icons/ssd.png');
 }
 
-.umbrella {
-  background-image: url('../assets/icons/umbrella.png');
-}
-
 @media (prefers-color-scheme: light) {
 
   .fpf {
@@ -62,6 +58,10 @@
 
   .guides {
     background-image: url('../assets/icons/lm-guides.png');
+  }
+
+  .umbrella {
+    background-image: url('../assets/icons/lm-umbrella.png');
   }
 }
 
@@ -88,5 +88,9 @@
 
   .guides {
     background-image: url('../assets/icons/dm-guides.png');
+  }
+
+  .umbrella {
+    background-image: url('../assets/icons/dm-umbrella.png');
   }
 }
