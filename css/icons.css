@@ -39,6 +39,10 @@
     background-image: url('../assets/icons/lm-tor.png');
   }
 
+  .skiff {
+    background-image: url('../assets/icons/lm-skiff.png');
+  }
+
   .fpf {
     background-image: url('../assets/icons/lm-fpf.png');
   }
@@ -67,6 +71,10 @@
 @media (prefers-color-scheme: dark) {
   .tor {
     background-image: url('../assets/icons/dm-tor.png');
+  }
+
+  .skiff {
+    background-image: url('../assets/icons/dm-skiff.png');
   }
 
   .protonmail {
