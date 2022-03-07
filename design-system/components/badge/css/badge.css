@@ -22,7 +22,7 @@
 .badgeContainer {
   display: flex;
   flex-direction: row;
-  padding: var(--spacing-small) 0;
+  padding: calc(var(--spacing-base) * .75) 0;
 }
 
 .badgeContainer .badge {

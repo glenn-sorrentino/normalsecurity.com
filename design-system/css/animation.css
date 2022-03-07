@@ -34,12 +34,31 @@
 	}
 }
 
+@media (prefers-color-scheme: light) {
+  .intro .bg-sat {
+    background-image: url("../../assets/illustrations/lm-sat2.png");
+  }
+
+  .intro .bg-sat:last-of-type {
+    background-image: url("../../assets/illustrations/lm-sat1.png");
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .intro .bg-sat {
+    background-image: url("../../assets/illustrations/dm-sat2.png");
+  }
+
+  .intro .bg-sat:last-of-type {
+    background-image: url("../../assets/illustrations/dm-sat1.png");
+  }
+}
+
 .animation h2 {
   z-index: 2;
 }
 
 .intro .bg-sat {
-  background-image: url("../../assets/illustrations/sat2.png");
   background-position-x: 0;
   background-position-y: top !important;
   background-repeat: no-repeat;
@@ -58,7 +77,6 @@
 }
 
 .intro .bg-sat:last-of-type {
-  background-image: url("../../assets/illustrations/sat1.png");
   background-position-x: 0;
   background-position-y: bottom !important;
   background-repeat: no-repeat;
