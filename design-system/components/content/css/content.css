@@ -35,7 +35,7 @@
   margin: var(--spacing-xlarge) 0 !important;
 }
 
-h3 + .description {
+.emoji + h3 + .description {
   margin: var(--spacing-small) 0 !important;
 }
 
