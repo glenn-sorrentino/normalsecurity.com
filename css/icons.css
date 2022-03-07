@@ -30,15 +30,14 @@
   background-image: url('../assets/icons/authy.png');
 }
 
-.tor {
-  background-image: url('../assets/icons/tor.png');
-}
-
 .ssd {
   background-image: url('../assets/icons/ssd.png');
 }
 
 @media (prefers-color-scheme: light) {
+  .tor {
+    background-image: url('../assets/icons/lm-tor.png');
+  }
 
   .fpf {
     background-image: url('../assets/icons/lm-fpf.png');
@@ -57,7 +56,7 @@
   }
 
   .guides {
-    background-image: url('../assets/icons/lm-guides.png');
+    background-image: url('../assets/icons/lm-privacyguides.png');
   }
 
   .umbrella {
@@ -66,6 +65,10 @@
 }
 
 @media (prefers-color-scheme: dark) {
+  .tor {
+    background-image: url('../assets/icons/dm-tor.png');
+  }
+
   .protonmail {
     background-image: url('../assets/icons/dm-protonmail.png');
   }
@@ -87,7 +90,7 @@
   }
 
   .guides {
-    background-image: url('../assets/icons/dm-guides.png');
+    background-image: url('../assets/icons/dm-privacyguides.png');
   }
 
   .umbrella {
