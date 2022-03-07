@@ -19,7 +19,7 @@
   }
 
   nav ul li a:hover {
-    box-shadow: inset 0 -3px var(--theme-glow) !important;
+    box-shadow: inset 0 -3px var(--theme-glow);
   }
 
   .glow nav ul li a.btn {
@@ -102,4 +102,20 @@
 
 .glow .pinnedList .card.selected {
   border-left: 3px solid var(--theme-glow)!important;
+}
+
+@media only screen and (max-width: 1024px) {
+  @media (prefers-color-scheme: light) {
+
+    nav ul li a:hover {
+      box-shadow: inset 3px 0 var(--theme-glow);
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+
+    nav ul li a:hover {
+      box-shadow: inset 3px 0 var(--theme-glow-light);
+    }
+  }
 }
