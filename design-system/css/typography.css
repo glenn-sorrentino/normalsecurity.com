@@ -148,7 +148,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
   font-size: var(--font-size-body);
   padding-top: var(--spacing-base);
   padding-bottom: var(--spacing-base);
-  margin: 0 auto;
+  margin: var(--spacing-small) auto;
   font-family: 'Serif';
 }
 
