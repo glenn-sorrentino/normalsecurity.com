@@ -119,6 +119,7 @@ nav .badge {
     nav ul {
       box-shadow: var(--shadow-lm);
       background-color: var(--color-light);
+      border: var(--border-dark);
     }
 
     nav ul li a:hover {
@@ -130,6 +131,7 @@ nav .badge {
     nav ul {
       box-shadow: var(--shadow-dm);
       background-color: var(--color-shade-dm);
+      border: var(--border-light);
     }
 
     nav ul li a:hover {
@@ -150,11 +152,11 @@ nav .badge {
     flex-direction: column;
     position: absolute;
     top: 72px;
-    left: 0;
-    right: 0;
+    width: max-content;
     z-index: 1;
     padding: var(--spacing-small) 0;
     align-items: flex-start;
+    border-radius: var(--radius-soft);
   }
 
   nav ul li a.wrapper {
