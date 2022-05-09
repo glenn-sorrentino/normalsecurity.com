@@ -144,7 +144,7 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 
 .decorative {
   display: block;
-  width: fit-content;
+  width: max-content;
   font-size: var(--font-size-body);
   padding-top: var(--spacing-base);
   padding-bottom: var(--spacing-base);
