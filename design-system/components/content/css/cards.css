@@ -33,7 +33,7 @@
 
 @media only screen and (max-width: 768px) {
   .center .groupRow:first-of-type .card:nth-child(2n) {
-    margin-top: var(--spacing-base) !important;
+    margin-top: var(--spacing-small) !important;
   }
 
   .card {
@@ -45,7 +45,7 @@
   }
 
   .center .groupRow:first-of-type .card {
-    margin-top: var(--spacing-base) !important;
+    margin-top: var(--spacing-small) !important;
   }
 
   .groupRow .description.card  {
