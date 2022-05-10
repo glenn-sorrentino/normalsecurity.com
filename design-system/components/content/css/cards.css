@@ -16,6 +16,7 @@
   padding: var(--spacing-xlarge) var(--spacing-large) !important;
   border-radius: var(--radius-soft) !important;
   margin: var(--spacing-base) var(--spacing-base) 0 var(--spacing-base) !important;
+  box-shadow: 0 var(--spacing-small) var(--spacing-medium) -.625rem rgba(0, 0, 0, 0.1);
 }
 
 .card:first-of-type {
