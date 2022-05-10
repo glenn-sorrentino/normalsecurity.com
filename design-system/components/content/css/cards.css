@@ -48,4 +48,8 @@
     margin-top: var(--spacing-base) !important;
   }
 
+  .groupRow .description.card  {
+    margin: var(--spacing-small) 0 !important;
+  }
+
 }
