@@ -31,6 +31,14 @@
   margin-top: var(--spacing-large) !important;
 }
 
+.center .groupRow .card:first-of-type  {
+  margin-left: 0 !important;
+}
+
+.center .groupRow .card:last-of-type  {
+  margin-right: 0 !important;
+}
+
 @media only screen and (max-width: 768px) {
   .center .groupRow:first-of-type .card:nth-child(2n) {
     margin-top: var(--spacing-small) !important;
