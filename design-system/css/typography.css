@@ -182,6 +182,10 @@ h1 .emoji, h2 .emoji, h3 .emoji, h4 .emoji, h5 .emoji, h6 .emoji {
 }
 
 @media only screen and (max-width: 1024px) {
+  h4 {
+    font-size: calc(var(--font-size-3) * .8);
+    margin: calc(var(--spacing-xxlarge) * .8) 0 var(--spacing-small) 0;
+  }
 }
 
 @media only screen and (max-width: 768px) {
