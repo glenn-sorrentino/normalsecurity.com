@@ -144,10 +144,10 @@ h3 + .description {
 }
 
 .groupRow .description {
-    padding: 0 var(--spacing-base) !important;
+    padding: 0 var(--spacing-base);
     justify-content: flex-start;
     flex: 1 1 0px;
-    margin: var(--spacing-base) 0 !important;
+    margin: var(--spacing-base) 0;
 }
 
 .groupRow .description img ~ .iconAlt {
@@ -237,6 +237,7 @@ h3 + .description {
   .groupRow .description img {
     order: 9;
   }
+
 }
 
 @media only screen and (max-width: 640px) {

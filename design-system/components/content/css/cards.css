@@ -1,41 +1,61 @@
 @media (prefers-color-scheme: light) {
   .card {
-    border: var(--border-dark);
-    background-color: var(--color-light);
+    border: var(--border-dark) !important;
+    background-color: var(--color-light) !important;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   .card {
-    border: var(--border-light);
-    background-color: var(--color-shade-dm);
+    border: var(--border-light) !important;
+    background-color: var(--color-shade-dm) !important;
   }
 }
 
-.card {
+.groupRow .description.card  {
   padding: var(--spacing-xlarge) var(--spacing-large) !important;
-  border-radius: var(--radius-soft);
-  margin: var(--spacing-base);
+  border-radius: var(--radius-soft) !important;
+  margin: var(--spacing-base) var(--spacing-base) 0 var(--spacing-base) !important;
+  box-shadow: 0 var(--spacing-small) var(--spacing-medium) -.625rem rgba(0, 0, 0, 0.1);
 }
 
 .card:first-of-type {
-  margin-left: 0;
+  margin-left: 0 !important;
 }
 
 .card:last-of-type {
-  margin-right: 0;
+  margin-right: 0 !important;
 }
 
 .center .groupRow:first-of-type .card {
-  margin-top: var(--spacing-large);
+  margin-top: var(--spacing-large) !important;
+}
+
+.center .groupRow .card:first-of-type  {
+  margin-left: 0 !important;
+}
+
+.center .groupRow .card:last-of-type  {
+  margin-right: 0 !important;
 }
 
 @media only screen and (max-width: 768px) {
   .center .groupRow:first-of-type .card:nth-child(2n) {
-    margin-top: var(--spacing-base);
+    margin-top: var(--spacing-small) !important;
   }
 
   .card {
-    margin: var(--spacing-base) 0;
+    margin: var(--spacing-base) 0 !important;
   }
-}
+
+  .groupRow:nth-child(3n) {
+    margin-top: 0;
+  }
+
+  .center .groupRow:first-of-type .card {
+    margin-top: var(--spacing-small) !important;
+  }
+
+  .groupRow .description.card  {
+    margin: var(--spacing-small) 0 !important;
+  }
